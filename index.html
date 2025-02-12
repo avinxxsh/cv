@@ -1,76 +1,77 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Avinaash's Personal Website</title>
-    </head>
-    
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images\1673363280150-modified.png" alt="profile picture"></td>
-                <td><h1>Avinaash Ganesh</h1>
-                    <p><em>Final Year Computer Science Engineering Student</em></p>
-                    <p><strong><a href="https://www.sitpune.edu.in/" target="_blank" rel="noopener noreferrer">Symbiosis Institute of Technology</a></strong></p>
-                    <p>Intro</p></td>
-            </tr>
-        </table>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinaash Ganesh | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Work Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <img src="images/1673363280150-modified.png" alt="Avinaash" class="profile-pic">
+            <h1>Avinaash Ganesh</h1>
+            <p><em>Final Year Computer Science Engineering Student</em></p>
+            <p><strong><a href="https://www.sitpune.edu.in/" target="_blank">Symbiosis Institute of Technology</a></strong></p>
+            <p>Intro text here...</p>
+        </section>
         <hr>
-        <h3>Education</h3>
-        <ul>
-            <li>Symbiosis Institute of Technology</li>
-            <li>RN Podar School</li>
-            <li>Arsha Vidya Mandir</li>
-        </ul>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Symbiosis Institute of Technology</li>
+                <li>RN Podar School</li>
+                <li>Arsha Vidya Mandir</li>
+            </ul>
+        </section>
         <hr>
-        <h3>My Hobbies</h3>
-        <ol>
-            <li>Programming</li>
-            <li>Gaming</li>
-            <li>Motorcycles</li>
-        </ol>
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Duration</th>
+                        <th>Work</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>June 2022 - July 2022</td>
+                        <td>Intern at Actify Data Labs</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 2023 - Present</td>
+                        <td>Intern at Nomura</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
         <hr>
-        <h3>Work Experience</h3>
-        <table border="1">
-            <thead>
-                 <tr>
-                    <th>Duration</th>
-                    <th>Work</th>
-                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>June 2022 - July 2022</td>
-                    <td>Intern at Actify Data Labs</td>
-                </tr>
-                <tr>
-                    <td>Jan 2023 - Present</td>
-                    <td>Intern at Nomura</td>
-                </tr>
-            </tbody>
-        </table>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python ⭐⭐⭐⭐⭐</li>
+                <li>Red Hat Enterprise Linux ⭐⭐⭐⭐</li>
+                <li>HTML ⭐⭐⭐</li>
+                <li>Tesseract ⭐⭐⭐</li>
+            </ul>
+        </section>
         <hr>
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tbody>
-                <tr>
-                    <td>Python</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Red Hat Enterprise Linux </td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Tesseract</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-            </tbody>
-        </table>
-        <a href="contact.html">Contact Me</a>
-    </body>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: your-email@example.com</p>
+            <p>GitHub: <a href="https://github.com/avinxxsh" target="_blank">github.com/avinxxsh</a></p>
+        </section>
+    </main>
+</body>
 </html>
